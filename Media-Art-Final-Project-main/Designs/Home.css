@@ -1,0 +1,82 @@
+a:link, a:visited {
+  background-color: rgb(120 ,0, 120);
+  color: black;
+  padding: 12px 100px;   
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  } 
+
+a:hover, a:active {
+  background-color: rgb(100,0,100);
+  color: rgb(40,40,40);
+}
+
+body{
+    background-color: rgb(0,0,0);
+    color: white;
+}
+
+.top{
+    background-color: rgb(255,255,255);
+    color:black;
+    font-size: 24px;
+}
+
+.nav{
+    background-color: rgb(127, 127, 127);
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    width: windowWidth;
+    /*flex-wrap:wrap;*/
+    /*flex-shrink:1;*/
+}
+
+.navigation{
+    /*padding: 0;*/
+    /*margin: auto;*/
+    border-left: 2px solid black;
+    text-align: center;
+    flex-shrink:3;
+    flex-basis:100;
+}
+
+.mid{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(20,20,20);
+    border: 5px solid rgb(0,0,127);
+}
+
+.up{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+.header{
+    text-align: center;
+    color:white;
+    font-size:32px;
+    margin:20px;
+}
+
+.desc{
+    color:white;
+    font-size:16px;
+    width: 500px;
+}
+
+.bottom{
+    background-color:rgb(20,20,20);
+    text-align:center;
+    border: 5px solid rgb(0,0,127);
+}
+
+Footer{
+    width:100%;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    margin:none;
+}

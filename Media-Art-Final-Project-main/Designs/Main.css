@@ -1,0 +1,70 @@
+
+body{
+    background-color: rgb(0,0,0);
+    color: white;
+}
+
+.top{
+    background-color: rgb(127,127,127);
+    color:black;
+    font-size: 24px;
+}
+
+.mid{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(20,20,20);
+    border: 5px solid rgb(0,0,127);
+}
+
+
+.bottom{
+    background-color:rgb(20,20,20);
+    text-align:center;
+    border: 5px solid rgb(0,0,127);
+}
+
+footer{
+    width:100%;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    margin:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    font-size: 16px;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.navigation{
+    padding: 2.5vh 7vw;
+    border-left: 2px solid black;
+    text-align: center;
+    flex-shrink:5;
+    flex-basis:300;
+}
+
+
+.navigation:link, .navigation:visited {
+  background-color: rgb(120 ,0, 120);
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  } 
+
+.navigation:hover, .navigation:active {
+  background-color: rgb(100,0,100);
+  color: rgb(40,40,40);
+}
+
+.easterEgg{
+    color:white;
+}
